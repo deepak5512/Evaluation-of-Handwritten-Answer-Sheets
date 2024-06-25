@@ -15,6 +15,7 @@ For the given problem statement, following were the steps taken by us:
 3. Extracted the right-most column from each sheet, where students marked their true/false answers.
 4. Divided the extracted column into 10 separate cells, each corresponding to one of the 10 questions on the sheet.
 **Example:**
+\
 ![App Screenshot](https://raw.githubusercontent.com/deepak5512/Evaluation-of-Handwritten-Answer-Sheets/main/Archive/False/1%20(2).png?token=GHSAT0AAAAAACORO6MD33VGGFZSOMV3UNIMZT2ZNEQ)
 
 ![App Screenshot](https://raw.githubusercontent.com/deepak5512/Evaluation-of-Handwritten-Answer-Sheets/main/Archive/True/1%20(1).png?token=GHSAT0AAAAAACORO6MDSKSOHHYUOOLV2PL2ZT2ZNYA)
@@ -30,6 +31,7 @@ For using CNN model,
 3. Write the path of the model downloaded in the variable *model_path* in the file.
 4. Write the correct answers in the variable *correct_answers* in the file.
 5. Run the code file.
+6. The program will create a file named *Graded_sheets.csv* which will contain teh name of the images and the predicted score.
 \
 For using ViT model,
 
@@ -38,6 +40,7 @@ For using ViT model,
 3. Write the path of the model downloaded in the variable *model_save_path* in the file.
 4. Write the correct answers in the variable *correct_answers* in the file.
 5. Run the code file.
+6. 6. The program will create a file named *Graded_sheets.csv* which will contain teh name of the images and the predicted score.
 ## Problems which might occur
 
 1. Switch to Jupyter notebook if program gives error on vs code or other ide.
